@@ -6,4 +6,11 @@
 
 :root {
   font-size: 10px;
+
+  /* variáveis */
+
+  --bg-body: #d9cdf7;
+  --tt-color: #271a45;
+  --ff-main: "Lato", sans-serif;
+  --ff-secondary: "Playfair Display", serif;
 }
