@@ -14,3 +14,73 @@
   --ff-main: "Lato", sans-serif;
   --ff-secondary: "Playfair Display", serif;
 }
+
+body {
+  background: var(--bg-body);
+  color: var(--tt-color);
+}
+
+.screen1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 11.3rem;
+
+  margin-top: 21.8rem;
+}
+
+#sofa {
+  width: 44.9rem;
+}
+
+#sofa:hover {
+  width: 75rem;
+  transition: 1.5s;
+}
+
+p {
+  font-family: var(--ff-main);
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1rem;
+
+  margin-bottom: 1.2rem;
+}
+
+h1 {
+  font-family: var(--ff-secondary);
+  font-size: 4.2rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+
+  margin-bottom: 1.9rem;
+}
+
+h3 {
+  font-family: var(--ff-main);
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 1.6rem;
+
+  margin-bottom: 2rem;
+}
+
+button {
+  border: none;
+  border: 0.5px solid #271a45;
+  padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+  border-radius: 99.9rem;
+  background: var(--bg-body);
+  cursor: pointer;
+
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background: #928ca1;
+}
+
+.hide {
+  display: none;
+}
